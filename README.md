@@ -1,24 +1,30 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Project Title - SQL/MOOC_ACADEMY
 
-Things you may want to cover:
+Holà Correctorios! Voici notre MOOCAcademy !
 
-* Ruby version
 
-* System dependencies
+## Start up Project 
 
-* Configuration
+MOOC_Academy est une plateforme d'apprentissage en ligne. Il y a plein de cours dessus! Chaque cours a un titre et une description. Enfin, chaque cours a plusieurs leçons, qui ont un titre et un body.  
 
-* Database creation
+### How does it work ?
 
-* Database initialization
+Lance un petit db:migrate puis un db:seed et à toi la lecture de la base de données! :smile:
 
-* How to run the test suite
+```
+rails db:migrate
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+rails db:seed
+```
 
-* Deployment instructions
+#### Built with :heart: by : 
 
-* ...
+Viviane de Petigny  
+Bastien Hiel  
+Gregoria Ndongozy  
+Mélanie Nguon  
+Alexis  
+

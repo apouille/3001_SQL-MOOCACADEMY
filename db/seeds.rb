@@ -7,6 +7,10 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 require 'faker'
+
+Course.destroy_all
+Lesson.destroy_all
+
 10.times do
    course = Course.create!(title: Faker::Educator.course, content: Faker::Cannabis.cannabinoid_abbreviation)
 end
