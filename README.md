@@ -10,7 +10,10 @@ MOOC_Academy est une plateforme d'apprentissage en ligne. Il y a plein de cours 
 
 ### How does it work ?
 
-Lance un petit db:migrate puis un db:seed et à toi la lecture de la base de données! :smile:
+Lance un petit db:migrate puis un db:seed et à toi la lecture de la base de données! :smile:  
+Pour info, il y a deux modèles Course et Lesson: 
+* Course a deux attributs (title et content),
+* Lesson a deux attributs (title et content) et est associé à Course.
 
 ```
 rails db:migrate
@@ -24,7 +27,9 @@ rails db:seed
 
 Viviane de Petigny  
 Bastien Hiel  
-Gregoria Ndongozy  
+Gregoria Ndongozi  
 Mélanie Nguon  
-Alexis  
+Alexis Janin  
 
+
+![alt text](http://4.bp.blogspot.com/-qkXLk6wqXqI/Ul57-65voII/AAAAAAAADF4/hWxZv-RdBO8/s1600/Monsters-University-banner.jpg)
