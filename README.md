@@ -1,5 +1,5 @@
 
-# Project Title - SQL/MOOC_ACADEMY
+## Project Title - SQL/MOOC_ACADEMY
 
 Holà Correctorios! Voici notre MOOCAcademy !
 
@@ -8,7 +8,7 @@ Holà Correctorios! Voici notre MOOCAcademy !
 
 MOOC_Academy est une plateforme d'apprentissage en ligne. Il y a plein de cours dessus! Chaque cours a un titre et une description. Enfin, chaque cours a plusieurs leçons, qui ont un titre et un body.  
 
-### How does it work ?
+## How does it work ?
 
 Lance un petit db:migrate puis un db:seed et à toi la lecture de la base de données! :smile:  
 Pour info, il y a deux modèles Course et Lesson: 
